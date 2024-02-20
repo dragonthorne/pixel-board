@@ -1,0 +1,34 @@
+:root {
+    /* if you're changing the screen size, make sure the variables
+     * match SCREEN_WIDTH and SCREEN_HEIGHT in index.js
+     */
+    --board-width: 20;
+    --board-height: 15;
+    
+    --pxl-size: min(calc(100vw / var(--board-width)), calc(100vh / var(--board-height)));
+}
+
+html, body {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+#board-container {
+    width: calc(var(--pxl-size) * var(--board-width));
+    height: calc(var(--pxl-size) * var(--board-height));
+    
+    display: flex;
+    margin: auto;
+}
+
+.pxl-container {
+    width: var(--pxl-size);
+    height: calc(var(--pxl-size) * var(--board-height));
+}
+
+.pxl {
+    width: var(--pxl-size);
+    height: var(--pxl-size);
+}
