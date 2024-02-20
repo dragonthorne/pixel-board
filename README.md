@@ -15,4 +15,4 @@ chrome (and i assume other browsers) REALLY do not like it when you put that man
 forcing it to render over 2 million div elements, which is, to put it lightly, a fuckload. But that's without even
 CONSIDERING the fact that it's also gotta render all of that in 15 fps if you leave the framerate at default.
 
-all in all, shit sucks but it was very fun to program so i don't really give a shit.
+all in all, shit sucks but it was very fun to program so i don't really give a fuck.
